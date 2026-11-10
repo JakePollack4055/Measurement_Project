@@ -8,6 +8,7 @@ struct OrientationRecord: Codable {
     let rollDegrees: Double
     let yawDegrees: Double
     let camera: String
+    let target: String
     let classification: String
 }
 
